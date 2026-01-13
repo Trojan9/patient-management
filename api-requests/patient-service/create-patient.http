@@ -1,0 +1,12 @@
+### Creates new entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Banjo timmy",
+  "address": "46, carlow strret, middlesbrough",
+  "email": "timmybanjo@gmail.com",
+  "dateOfBirth": "1999-12-29",
+  "registeredDate": "2026-11-01"
+}
+###

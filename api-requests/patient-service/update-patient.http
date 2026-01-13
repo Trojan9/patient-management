@@ -1,0 +1,11 @@
+### Update new entity
+PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174011
+Content-Type: application/json
+
+{
+  "name": "Banjo timmy",
+  "address": "46, carlow strret, middlesbrough",
+  "email": "timmybanjo2@gmail.com",
+  "dateOfBirth": "1999-12-25"
+}
+###
